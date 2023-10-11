@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Read, Write, Update, Delete</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+
+      <div id="title_container">
+        <h2> CRUD - Banco de Dados usando Firebase</h2>
+        <span id="content">
+          <h2 class="typedtext"></h2>
+        </span>
+      </div>
+
+      <div id="form_container">
+        <input placeholder="Email" type="email" id="email"/>
+        <input placeholder="Password" type="password" id="password"/>
+        <input placeholder="Usuário" type="name" id="usuario"/>
+        <input placeholder="Uma musica" type="text" id="musica"/>
+        <input placeholder="Um Filme" type="text" id="filme"/>
+      </div>
+
+      <div id="button_container">
+        <button id="submit" onclick="enviar()"> ENVIAR </button>
+      </div>
+
+    </div>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+  <script src="script.js"></script>
+  <script src="firabase.js"></script>
+  <script src="index.js"></script>
+
+</html>
